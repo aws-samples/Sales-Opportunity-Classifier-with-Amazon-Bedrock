@@ -59,7 +59,8 @@ Replace "value1,value2,value3" with your desired comma-separated list of values.
 1. Upload your SFDC data (in .xlsx format) to the created S3 bucket.
 2. The Lambda function will automatically trigger and start the SageMaker notebook instance if it's not already running.
 3. The SageMaker notebook will process the data. You can monitor the progress in the SageMaker console.
-4. Results will be saved back to the S3 bucket.
+4. Results will be saved back to the S3 bucket, with each opportunity tagged with their respective category.
+![Tagged SFDC Excel Spreadshet with Category](./assets/image.jpg "Tagged opportunities")
 5. The notebook instance will automatically shut down after 10 minutes of inactivity.
 
 ## Cleanup
