@@ -1,6 +1,6 @@
-# SFDC Categorizer
+# Sales Opportunity Classifier with Amazon Bedrock
 
-This project implements an automated pipeline for processing SFDC (Salesforce) data using AWS SageMaker and S3. It uses AWS CDK for infrastructure as code, allowing easy deployment and management of the required AWS resources.
+This project implements an automated pipeline for processing Salesforce opportunties using Amazon Bedrock. It uses AWS CDK for infrastructure as code, allowing easy deployment and management of the required AWS resources.
 
 ## Solution Overview
 
