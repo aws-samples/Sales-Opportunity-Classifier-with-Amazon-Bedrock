@@ -55,7 +55,7 @@ pip install -r requirements.txt
 cdk deploy --parameters CustomList="value1,value2,value3"
 ```
 
-Replace "value1,value2,value3" with your desired category values. e.g cdk deploy --parameters CustomList="Image Recognition, Process Automation, Virtual Assistant"
+Replace "value1,value2,value3" with your desired category values. e.g cdk deploy --parameters CustomList="Image Recognition,Process Automation,Virtual Assistant"
 
 Note: If an opportunity do not fall under any of the categories defined, it will be labelled as "Not Defined".
 
