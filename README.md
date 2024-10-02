@@ -4,7 +4,9 @@ This project implements an automated pipeline for processing Salesforce opportun
 
 ## Solution Overview
 
-This solution provides an automated tool for Salesforce opportunities data analysis using AWS services. It allows sales teams to upload Salesforce opportunities in the form of an Excel spreadsheet, which is then analyzed to categorize each opportunity based on broad use cases. The tool leverages Amazon Bedrock for AI-based categorization and is designed to help sales teams better understand trends in opportunity generation and partner competency.
+This solution provides an automated tool for Salesforce opportunities data analysis using AWS services. It allows sales teams to upload Salesforce opportunities in the form of an Excel spreadsheet, which is then analyzed to categorize each opportunity based on broad use cases. The tool leverages Amazon Bedrock for AI-based categorization and is designed to help sales teams better understand trends in opportunity generation and partner competency. This tool enables sales teams to gain a deeper insight into their opportunities and create meaningful dashboards to make effective business decisions moving forward.
+
+![Example Dashboard with Amazon Quicksight](./assets/image2.jpg "Amazon Quicksight dashboard")
 
 Key services of the solution include:
 
