@@ -41,17 +41,24 @@ bash
 git clone https://github.com/your-username/sagemaker-s3-pipeline.git
 cd sagemaker-s3-pipeline
 ```
+
 2. Install the required dependencies:
 ```
 npm install
 pip install -r requirements.txt
 ```
+
 3. Configure the CDK stack in sagemaker_s3_pipeline_stack.py. Update any parameters or configurations as needed.
+
 4. Deploy the CDK stack:
 ```
 cdk deploy --parameters CustomList="value1,value2,value3"
 ```
-Replace "value1,value2,value3" with your desired comma-separated list of values.
+
+Replace "value1,value2,value3" with your desired category values. e.g cdk deploy --parameters CustomList="Image Recognition, Process Automation, Virtual Assistant"
+
+Note: If an opportunity do not fall under any of the categories defined, it will be labelled as "Not Defined".
+
 5. Once deployed, the S3 bucket name will be available in your SageMaker notebook. You can access it by reading the /home/ec2-user/SageMaker/bucket_name.txt file.
 
 
