@@ -39,7 +39,6 @@ This tool provides valuable insights into opportunity trends and partner capabil
 
 1. Clone this repository:
 ```
-bash
 git clone https://github.com/aws-samples/Sales-Opportunity-Classifier-with-Amazon-Bedrock
 ```
 
