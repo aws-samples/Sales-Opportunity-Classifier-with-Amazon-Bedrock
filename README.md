@@ -40,17 +40,15 @@ This tool provides valuable insights into opportunity trends and partner capabil
 1. Clone this repository:
 ```
 bash
-git clone https://github.com/your-username/sagemaker-s3-pipeline.git
-cd sagemaker-s3-pipeline
+git clone https://github.com/aws-samples/Sales-Opportunity-Classifier-with-Amazon-Bedrock
 ```
 
 2. Install the required dependencies:
 ```
-npm install
 pip install -r requirements.txt
 ```
 
-3. Configure the CDK stack in sagemaker_s3_pipeline_stack.py. Update any parameters or configurations as needed.
+3. Configure the CDK stack in sagemaker_s3_pipeline_stack.py only if necessary. Update any parameters or configurations as needed.
 
 4. Deploy the CDK stack:
 ```
